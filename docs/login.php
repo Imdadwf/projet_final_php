@@ -1,6 +1,6 @@
 <?php
 
-// require 'include/db-connection.php';
+require 'inclusion/pdo.php';
 
 if(isset($_POST['email']) &&
  isset($_POST['password'])
